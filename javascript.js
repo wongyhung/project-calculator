@@ -21,3 +21,30 @@ function operate(num1, op, num2) {
         add(num1, num2);
     }
 }
+
+const acButton = document.querySelector("#AC");
+const plusMinusButton = document.querySelector("#plus-minus");
+const percentButton = document.querySelector("#percent");
+const divideButton = document.querySelector("#divide");
+
+const multiplyButton = document.querySelector("#multiply");
+const subtractButton = document.querySelector("#subtract");
+const addButton = document.querySelector("#add");
+
+const decimalButton = document.querySelector("#decimal");
+const equalButton = document.querySelector("#equal");
+
+const screen = document.querySelector("#screen");
+displayNum = "";
+
+function updateDisplay() {
+    screen.textContent = displayNum;
+}
+
+const numberButtons = document.querySelectorAll("[id^='num']");
+numberButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        displayNum += button.textContent;
+        updateDisplay();
+    });
+});
