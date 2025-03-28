@@ -1,0 +1,44 @@
+* {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+
+#shell {
+    box-sizing: border-box;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#screen {
+    border: 2px solid black;
+    width: 300px;
+    height: 75px;
+    box-sizing: border-box;
+    margin: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    font-size: 35px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttons div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+button {
+    width: 75px;
+    height: 75px;
+}

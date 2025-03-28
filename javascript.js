@@ -14,7 +14,7 @@ function divide(num1, num2) {
     return num1 /= num2;
 }
 
-let inputNum1, operator, inputNum2;
+let displayNum, inputNum1, operator, inputNum2;
 
 function operate(num1, op, num2) {
     if (op === 1) {
