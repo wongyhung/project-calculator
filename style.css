@@ -19,10 +19,18 @@
     height: 75px;
     box-sizing: border-box;
     margin: 25px;
-    padding: 15px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+}
+
+#history {
+    font-size: 10px;
+    margin: 5px;
+}
+
+#display {
     font-size: 35px;
+    margin: 15px;
 }
 
 #buttons {
